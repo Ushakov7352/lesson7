@@ -66,8 +66,7 @@ Vue.component('cart', {
             :cart-item="item"
             @remove="remove"></cart-item>
         </div>
-</div>`,
-
+</div>`;
             Vue.component('cart-item', {
                props: ['cartItem', 'img'],
                template: `<div class="cart-item" >
